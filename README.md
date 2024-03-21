@@ -39,7 +39,7 @@ Kami menggunakan data set bank customers yang berasal dari [kaggle.com](https://
 ### Descriptive Statistic
 -----
 
-<img src="./image/data_info.png" alt="drawing" width="300"/>
+<img src="./folder/data_info.png" alt="drawing" width="300"/>
 
 Dataset berisi 10.000 row data dengan 14 fitur kolom. Kolom Exited sebagai variable target. Di dalam data tidak ada *missing value* untuk semua atribut.
 
