@@ -4,30 +4,22 @@ Creating a Machine Learning model to predict Customer who has the potential to c
 ## Stage 0 
 **Problem Statement**
 
-Perusahaan Rakamin Bank Center (RBC) tidak memiliki model Machine Learning (ML) untuk memprediksi nasabah mana yang akan 
-churn. Dari data historikal yang ada, diperoleh jumlah nasabah churn sebesar **20,37%** dari keseluruhan data. Mengacu pada laman 
-uxpressia.com tentang "*How to Approach Customer Churn Measurements in Banking*", toleransi nasabah churn maksimal sebesar 
-**10%**.<br> Sementara itu, jumlah nasabah churn pada data yang kita miliki melebihi batas toleransi tersebut. Dengan model ML yang dibuat, 
-diharapkan menjadi acuan bagi tim bisnis untuk mengambil langkah strategi mengatasi nasabah yang terdeteksi churn. 
+Perusahaan Rakamin Bank Center (RBC) tidak memiliki model Machine Learning (ML) untuk memprediksi nasabah mana yang akan churn. Dari data historikal yang ada, diperoleh jumlah nasabah churn sebesar **20,37%** dari keseluruhan data. Mengacu pada laman uxpressia.com tentang "*How to Approach Customer Churn Measurements in Banking*", toleransi nasabah churn maksimal sebesar **10%**.<br> Sementara itu, jumlah nasabah churn pada data yang kita miliki melebihi batas toleransi tersebut. Dengan model ML yang dibuat, diharapkan menjadi acuan bagi tim bisnis untuk mengambil langkah strategi mengatasi nasabah yang terdeteksi churn. 
 
 ----------
 **Goals** 
 
-Membuat model Machine Learning dengan tingkat akurasi > **70%** dan tingkat presisi > () untuk membantu bank Rakamin Bank Center (RBC) 
-dalam memprediksi nasabah yang akan churn dan membantu tim bisnis dalam menentukan strategi terhadap nasabah yang akan churn
+Menurunkan tingkat churn rate nasabah menjadi di bawah **15%** dalam kurun waktu satu tahun.
 
 ---------
 **Objectives** 
 
-* Mengidentifikasi variabel yang memiliki relevansi dengan keputusan nasabah untuk berhenti berlangganan
-* Mempersiapkan data historikal yang digunakan untuk model Machine Learning
-* Membangun model prediktif untuk mengklasifikasikan nasabah yang berpotensi churn
-* Melakukan optimasi model sehingga mendapatkan hasil yang terbaik
+* Membuat Model Klasifikasi untuk membantu Rakamin Bank Center dalam memprediksi nasabah yang akan churn sehingga diharapkan mampu menurunkan tingkat churn rate dibawah 15%.
 
 ----------
 Bussines Metrics
 
-Untuk mengukur keberhasilan objective tersebut dengan **churn rate**. Kami juga mengukur metric sekunder dengan tingkat **akurasi model**.
+Untuk mengukur keberhasilan objective tersebut dengan **churn rate**. Kami juga mengukur metric **F1-score** karena dataset imbalance extrime 20:80.
 
 ## Stage 1
 
